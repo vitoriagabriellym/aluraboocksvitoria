@@ -39,11 +39,12 @@
 .lista-menu__item {
     padding: 1em;
     background-color: var(--branco);
-    font-family: 700;
+    font-family: var(--fonte-principal);
 }
 
 .lista-menu__titulo {
     color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu__link {
@@ -54,3 +55,6 @@
     text-transform: uppercase;
 }
 
+.container__botao {
+    display: none;
+}
